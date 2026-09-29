@@ -7,7 +7,7 @@ st.subheader("Your Smart Budget & Recommendation Assistant")
 
 # API Key from Secrets
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-3.8-flash")
 
 # User Inputs
 st.sidebar.header("Enter Your Details")
